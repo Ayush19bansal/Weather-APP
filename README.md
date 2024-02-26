@@ -7,11 +7,10 @@ The Weather Forecast App is a web application that provides real-time weather in
 
 ## Screenshots
 Include screenshots of the Weather Forecast App here. For example:
-![Home Page](/screenshots/home-page.png)
+
+
 *Figure 1: Home Page*
 
-![Weather Details](/screenshots/weather-details.png)
-*Figure 2: Weather Details*
 
 ## Functionality
 - **Real-Time Weather**: Fetches real-time weather data based on the user's current location or a manually input city.
