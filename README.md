@@ -1,71 +1,38 @@
-https://weather-app-sigma-tan.vercel.app/
-# Getting Started with Create React App
+# Hosted link :-https://weather-app-sigma-tan.vercel.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Weather Forecast App
 
-## Available Scripts
+## Overview
+The Weather Forecast App is a web application that provides real-time weather information based on the user's location or a manually input city. It fetches weather data from the OpenWeatherMap API and displays it to the user. The app includes features such as dynamic weather icons, temperature conversion, humidity, visibility, and wind speed.
 
-In the project directory, you can run:
+## Screenshots
+Include screenshots of the Weather Forecast App here. For example:
+![Home Page](/screenshots/home-page.png)
+*Figure 1: Home Page*
 
-### `npm start`
+![Weather Details](/screenshots/weather-details.png)
+*Figure 2: Weather Details*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Functionality
+- **Real-Time Weather**: Fetches real-time weather data based on the user's current location or a manually input city.
+- **Dynamic Weather Icons**: Displays weather conditions using dynamic weather icons based on the fetched data.
+- **Temperature Conversion**: Provides temperature in Celsius.
+- **Humidity**: Displays humidity percentage.
+- **Visibility**: Shows visibility in miles.
+- **Wind Speed**: Displays wind speed in kilometers per hour.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Extra Packages Used
+- `axios`: Used for making HTTP requests to fetch weather data from the API.
+- `react-animated-weather`: Used for displaying dynamic weather icons.
 
-### `npm test`
+## Learning from the Project
+- **API Integration**: Learned how to integrate with external APIs (OpenWeatherMap API) to fetch real-time weather data.
+- **State Management with useState and useEffect**: Learned how to manage state using `useState` and `useEffect` hooks in React.
+- **Conditional Rendering**: Learned how to conditionally render components based on fetched data and handle errors.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Future Improvements
+- **Improved Error Handling**: Implement better error handling for cases where the API request fails or the user input is invalid.
+- **Unit Conversion**: Allow users to toggle between Celsius and Fahrenheit for temperature display.
+- **Extended Forecast**: Provide an extended forecast for multiple days instead of just the current weather.
+- **User Preferences**: Allow users to save their preferred location and units for a personalized experience.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
