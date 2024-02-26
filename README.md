@@ -7,6 +7,7 @@ The Weather Forecast App is a web application that provides real-time weather in
 
 ## Screenshots
 Include screenshots of the Weather Forecast App here. For example:
+![image](https://github.com/Ayush19bansal/Weather-APP/assets/118842033/d69c64eb-8a53-475f-86b6-b3e8c4c7574f)
 
 
 *Figure 1: Home Page*
