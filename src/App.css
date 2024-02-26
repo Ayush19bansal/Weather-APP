@@ -501,6 +501,9 @@ div#txt {
     font-size: 28px;
     letter-spacing: 2px;
   }
+  .current-time,.current-date{
+    display: none;
+  }
   .container {
     margin-bottom: 20px;
   }
